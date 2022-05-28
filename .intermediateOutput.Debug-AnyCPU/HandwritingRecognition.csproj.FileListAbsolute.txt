@@ -1,0 +1,15 @@
+C:\Users\Кирилл\Desktop\HandWritingRecognition\output.Debug-AnyCPU\SAHand.exe
+C:\Users\Кирилл\Desktop\HandWritingRecognition\output.Debug-AnyCPU\SAHand.pdb
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\HandwritingRecognition.csproj.AssemblyReference.cache
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\Ui\MainWindow.baml
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\Ui\RecognitionResultSelectorWindow.baml
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\Ui\MainWindow.g.cs
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\Ui\RecognitionResultSelectorWindow.g.cs
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\SAHand_MarkupCompile.cache
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\SAHand.g.resources
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\Handwriting.Resources.Exceptions.resources
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\Handwriting.Resources.Resources.resources
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\HandwritingRecognition.csproj.GenerateResource.cache
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\HandwritingRecognition.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\SAHand.exe
+C:\Users\Кирилл\Desktop\HandWritingRecognition\.intermediateOutput.Debug-AnyCPU\SAHand.pdb
