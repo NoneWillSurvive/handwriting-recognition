@@ -78,9 +78,9 @@
             <StatusBar Background="Transparent">
                 <Button x:Name="buttonClearInk" IsEnabled="False" Style="{StaticResource Button}">Очистить полотно</Button>
                 
-                <Button x:Name="buttonRecognize" IsEnabled="False" Style="{StaticResource Button}">_Recognize</Button>
-                <Button x:Name="buttonCopy" Style="{StaticResource Button}">Copy _Text</Button>
-                <TextBlock x:Name="textBlockStatus" VerticalAlignment="Center">No handwritten recognition engines installed</TextBlock>
+                <Button x:Name="buttonRecognize" IsEnabled="False" Style="{StaticResource Button}">Распознать</Button>
+                <Button x:Name="buttonCopy" Style="{StaticResource Button}">Скопировать</Button>
+                <TextBlock x:Name="textBlockStatus" VerticalAlignment="Center"> </TextBlock>
             </StatusBar>
         </Border>
     </Grid>
