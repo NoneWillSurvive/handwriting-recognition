@@ -63,7 +63,7 @@ namespace Handwriting.Ui {
             }; //radioSelectorMode.Checked
             this.buttonRecognize.Click += (object sender, RoutedEventArgs eventArgs) => {
                 var selector = new RecognitionResultSelectorWindow();
-                Main.IRecognitionResultSelector selectorToUse = null;
+                Main.IRecognitionResultSelector selectorToUse = this.checkBoxAdvanced.IsChecked == true ? selector : null;
                 var strokes = inkCanvas.Strokes;
                 if (inkCanvas.EditingMode == InkCanvasEditingMode.Select) {
                     var selectedStrokes = inkCanvas.GetSelectedStrokes();
@@ -72,8 +72,8 @@ namespace Handwriting.Ui {
                 } //if
                 var text = Main.TextRecognizer.Recognize(strokes, (Microsoft.Ink.Recognizer)(this.listLanguages.SelectedItem), selectorToUse);
                 if (text == null) return;
-                if (text.Length > 0 && this.checkBoxAppend.IsChecked == true)
-                    text = Main.DefinitionSet.WordSeparator + text;
+                //if (text.Length > 0 && this.checkBoxAppend.IsChecked == true)
+                //    text = Main.DefinitionSet.WordSeparator + text;
                 else
                     this.textBoxTarget.Clear();
                 AppendText(text);

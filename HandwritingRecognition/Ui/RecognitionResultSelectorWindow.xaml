@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Handwriting.Ui.RecognitionResultSelectorWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="Choose Alternates"
+    Title="Выберите альтернативы"
     ResizeMode="CanResizeWithGrip"
     Height="300" Width="300">
     <Window.Resources>
@@ -24,8 +24,8 @@
         </Border>
         <Border Grid.Row="1" Padding="{StaticResource Padding}" BorderThickness="0 1 0 0" BorderBrush="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
             <StackPanel Orientation="Horizontal">
-                <Button x:Name="buttonOk" IsDefault="True" Style="{StaticResource Button}">_Done</Button>
-                <Button IsCancel="True" Style="{StaticResource Button}">Cancel</Button>
+                <Button x:Name="buttonOk" IsDefault="True" Style="{StaticResource Button}">Ок</Button>
+                <Button IsCancel="True" Style="{StaticResource Button}">Отмена</Button>
             </StackPanel>
         </Border>
     </Grid>

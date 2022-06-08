@@ -1,15 +1,4 @@
-﻿/*
-Handwriting Recognition with WPF and Microsoft.Ink
-
-Original publication:
-https://www.codeproject.com/Articles/5282936/Handwriting-Recognition-WPF-and-Microsoft-Ink
-
-    Copyright © 2020 by Sergey A Kryukov
-    http://www.codeproject.com/Members/SAKryukov
-    http://www.SAKryukov.org
-*/
-
-namespace Handwriting.Ui {
+﻿namespace Handwriting.Ui {
     using System.Windows;
     using System.Windows.Controls;
     using Microsoft.Ink;
@@ -39,7 +28,6 @@ namespace Handwriting.Ui {
                 currentPosition += words[index].Length + 1;
                 var alts = result.GetAlternatesFromSelection(positions[index], words[index].Length);
                 bool considerAlternates = true;
-                // with some eingines, alts[0].Confidence throws "The specified property identifier was invalid" exception
                 if (confidenceLevelPropertySupported && alts[0].Confidence == RecognitionConfidence.Strong)
                     considerAlternates = false;
                 if (considerAlternates && alts.Count > 1) {
